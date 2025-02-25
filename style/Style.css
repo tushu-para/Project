@@ -15,9 +15,9 @@ body {
     grid-column: 1;
     width: 100%;
     max-width: 1200px;
-    margin: 2rem auto;
+    margin: 20px ;
 
-    padding: 2rem,3rem,2rem,3rem;
+    padding: 20px;
 
     border: 2px solid #ddd;
     border-radius: 12px;
@@ -71,7 +71,7 @@ body {
     color: #333;
 }
 
-.box img {
+.box img, .main img {
     margin: 10px auto;
     display: block;
     border-radius: 4px;
@@ -79,7 +79,7 @@ body {
     transition: all 0.3s ease;
 }
 
-.box img:hover {
+.box img:hover, .main img:hover {
     opacity: 1;
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(235, 229, 229, 0.2);
